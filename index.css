@@ -1,0 +1,191 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	font-family: sans-serif;
+}
+.navmenu
+{
+	font-size: 20px;
+	color: royalblue;
+	font-weight: bolder;
+}
+.logo
+{
+	font-size: 35px;
+	font-family: elephant;
+	font-variant: small-caps;
+	color: orangered;
+}
+.section-menu
+{
+	position: relative;
+	top: 100px;
+}
+.navigation_bar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+	width: 100%;
+	height: 30px;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+#home
+{
+	height: 500px;
+	width: 95%;
+	background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1670664007515/7nRHqrTst.gif);
+	background-size: 500px 550px;
+	background-repeat: no-repeat;
+	background-position: 100% 90%;
+	position: relative;
+}
+.homeinfo
+{
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	height: 400px;
+	width: 700px;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.ginfo
+{
+	font-variant: small-caps;
+}
+.myname
+{
+	font-family: arial black;
+	color: #C0392B;
+	font-size: 50px;
+	text-shadow: 2px 2px 3px black;
+}
+.fullstack
+{
+	color: goldenrod;
+	font-size: 33px;
+}
+.resumebtn
+{
+	border: none;
+	height: 50px;
+	width: 170px;
+	color: white;
+	background-color: royalblue;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+	transition-duration: 1s;
+}
+.resumebtn:hover
+{
+	transform: scale(1.1);
+	background-color: white;
+	color: royalblue;
+	border: 3px solid royalblue;
+}
+#about
+{
+	margin-top: 50px;
+	width: 100%;
+	height: 400px;
+	background-color: whitesmoke;
+	display: inline-flex;
+}
+.img 
+{
+	padding: 70px;
+	margin-top: -20px;
+}
+.img img
+{
+	height: 310px;
+	width: 310px;
+	transition-duration: 1.5s;
+}
+.img img:hover
+{
+	transform: scale(1.2);
+	border-radius: 50px;
+    box-shadow: 0px 0px 20px grey;
+}
+.carrerobj
+{
+	font-size: 25px;
+	color: grey;
+}
+.carrerobj p
+{
+	text-align: justify;
+	text-indent: 20%;
+	margin-top: 50px;
+	padding: 0px 30px;
+}
+.heading
+{
+	margin-top: 40px;
+	color: royalblue;
+	font-weight: bolder;
+	font-size: 40px;
+	text-align: center;
+}
+.skills
+{
+	height: 600px;
+	width: 100%;
+}
+.skillsheading
+{
+	color: orange;
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-size: 30px;
+	margin-top: 20px;
+}
+td:hover
+{
+	box-shadow: 0px 0px 20px grey;
+	border-radius: 50px;
+}
+.skillstable tr td p
+{
+	font-size: 24px;
+	font-weight: bolder;
+	margin-top: 25px;
+}
+.skillstable tr td
+{
+	transition-duration: 1s;
+}
+#projects
+{
+	height: 1350px;
+	width: 100%;
+	background-color: whitesmoke;
+}
+.proj
+{
+	margin-top: 50px;
+}
+.card-deck
+{
+	width: 90%;
+	margin-top: 40px;
+}
+.contact
+{
+    height: 500px;
+    width: 100%;
+    background-color: lightgray;
+    display: inline-flex;
+}
+.mycntinfo
+{
+	width: 50%;
+}
